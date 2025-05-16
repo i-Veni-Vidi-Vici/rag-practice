@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # API KEY 정보로드
 load_dotenv()
 
-st.title("나만의 챗gpt 테스트!🐤")
+st.title("Chat-GPT")
 
 # 처음 1번만 실행하기 위한 코드
 if "messages" not in st.session_state:
